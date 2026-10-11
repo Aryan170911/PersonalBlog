@@ -25,56 +25,48 @@ import { motion, AnimatePresence, useInView, animate } from 'framer-motion';
 import { useIsInStack } from './showcase-stack';
 import { useLenis } from 'lenis/react';
 
-const GITHUB_USER = "Arfazrll";
+const GITHUB_USER = "Aryan170911";
 
 const PINNED_REPOS = [
   {
     name: "PersonalBlog",
-    desc: "Professional portfolio built with Next.js 15, TypeScript, and Tailwind CSS. Features 3D physics (R3F), GSAP animations, and real-time coding stats via WakaTime and GitHub APIs. Support EN/ID.",
-    stars: 67,
-    forks: 12,
+    desc: "Personal portfolio & blog built with Next.js, TypeScript, 3D physics (R3F) and GSAP motion.",
+    stars: 0,
+    forks: 0,
     lang: "TypeScript",
-    url: "https://github.com/Arfazrll/PersonalBlog"
+    url: "https://github.com/Aryan170911/PersonalBlog"
   },
   {
-    name: "Browser-Automation-Agent",
-    desc: "A robust CLI powering autonomous web agents. Seamlessly integrate Playwright, browser-use, and LangChain to automate your daily web workflows.",
-    stars: 10,
-    forks: 2,
+    name: "hexa",
+    desc: "Multi-account Telegram hunt service with inline controls and encrypted Cosmos session storage.",
+    stars: 0,
+    forks: 0,
     lang: "Python",
-    url: "https://github.com/Arfazrll/Browser-Automation-Agent"
+    url: "https://github.com/Aryan170911/hexa"
   },
   {
-    name: "Security-Automation-GenAI",
-    desc: "Deep Learning and Generative AI (Transformers & Attention Mechanisms) for automated cybersecurity threat detection, covering SQL Injection, DDoS, Network Intrusion, and Malware analysis.",
-    stars: 9,
-    forks: 2,
-    lang: "Jupyter Notebook",
-    url: "https://github.com/Arfazrll/Security-Automation-GenAI"
+    name: "Mathrubhumi-Enterprises",
+    desc: "Corporate website for Mathrubhumi Enterprises — pre-engineered steel buildings.",
+    stars: 0,
+    forks: 0,
+    lang: "HTML",
+    url: "https://github.com/Aryan170911/Mathrubhumi-Enterprises"
   },
   {
-    name: "POLABDC",
-    desc: "POLABDC (Pondok Labu Dental Care) Dental Clinic Management System (SaaS) powered by AI. Built with Typescript Next.js, Express, Prisma, Supabase, and Google Gemini AI for assistance.",
-    stars: 8,
-    forks: 15,
-    lang: "TypeScript",
-    url: "https://github.com/Arfazrll/POLABDC"
+    name: "krishi-sewa-website",
+    desc: "Krishi Sewa Foundation — Heritage Seeds, Empowering Farmers.",
+    stars: 0,
+    forks: 0,
+    lang: "Markdown",
+    url: "https://github.com/Aryan170911/krishi-sewa-website"
   },
   {
-    name: "Digilibzx",
-    desc: "Modern Full-Stack Digital Library System built with Java Spring Boot and TypeScript Next.js . Features AI-powered book summarization (Gemini), smart borrowing cart, and Dockerized deployment.",
-    stars: 12,
-    forks: 2,
-    lang: "TypeScript",
-    url: "https://github.com/Arfazrll/Digilibzx"
-  },
-  {
-    name: "Swarm-Agent-Orchestrator",
-    desc: "Autonomous multi-agent content orchestration system for high-performance blog drafting and research. Powered by OpenAI Swarm architecture.",
-    stars: 10,
-    forks: 5,
-    lang: "Vue",
-    url: "https://github.com/Arfazrll/Swarm-Agent-Orchestrator"
+    name: "Kaun-ha-chorwa",
+    desc: "Playable browser game with installable web-manifest support.",
+    stars: 0,
+    forks: 1,
+    lang: "JavaScript",
+    url: "https://github.com/Aryan170911/Kaun-ha-chorwa"
   }
 ];
 

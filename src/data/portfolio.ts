@@ -2,57 +2,24 @@ import { PortfolioData } from '@/types';
 
 export const portfolioData: PortfolioData = {
     personal: {
-        name: 'Syahril Arfian Almazril',
-        title: 'AI Engineer',
-        subtitle: 'AI Engineer • Software Engineer | Bridging Technical Innovation with Strategic Execution',
-        bio: 'An Information Technology student at Telkom University with a distinctive profile that fuses deep technical expertise in Artificial Intelligence with proven strategic leadership. Through hands-on experience as an AI Researcher at the Cyber Physical System Laboratory, I develop complex technical solutions from architecting IoT systems and designing software blueprints to engineering advanced Machine Learning models. Currently exploring AI Agents and Blockchain/Web3 technologies. Driven to leverage this integrated skill set to build initiatives that bridge technical innovation with effective execution.',
+        name: 'Aryan Kumar',
+        title: 'Software Engineer',
+        subtitle: 'Software Engineer • Building bots, tools and modern web experiences',
+        bio: 'Software engineer building Telegram bots, automation tools and modern web apps. This site documents my projects, notes and experiments — from bot services and lookup tooling to community web stores.',
         avatar: '/about/arfazrll.webp',
-        location: 'DKI Jakarta, Indonesia',
-        email: 'azril4974@gmail.com',
-        phone: '+6281511463282',
+        location: 'India',
+        email: 'Mathrubhumie@gmail.com',
         resumeUrl: '/resume',
-        website: 'https://personal-iqyuflz4z-arfazrlls-projects.vercel.app',
+        website: 'https://github.com/Aryan170911/PersonalBlog',
         languages: [
-            { name: 'Indonesian', level: 'Native' },
-            { name: 'English', level: 'Limited Working' },
-            { name: 'French', level: 'Elementary' },
+            { name: 'English', level: 'Professional' },
         ],
         socialLinks: [
             {
                 platform: 'GitHub',
-                url: 'https://github.com/Arfazrll',
+                url: 'https://github.com/Aryan170911',
                 icon: 'github',
-                username: 'Arfazrll',
-            },
-            {
-                platform: 'LinkedIn',
-                url: 'https://linkedin.com/in/syahril-arfian-almazril',
-                icon: 'linkedin',
-                username: 'Syahril Arfian Almazril',
-            },
-            {
-                platform: 'Instagram',
-                url: 'https://instagram.com/arfazrll',
-                icon: 'instagram',
-                username: 'arfazrll09_',
-            },
-            {
-                platform: 'Twitter',
-                url: 'https://twitter.com/arfazrll',
-                icon: 'twitter',
-                username: 'arfazrll',
-            },
-            {
-                platform: 'Discord',
-                url: 'https://discord.com/users/arfazrll',
-                icon: 'discord',
-                username: 'arfazrll',
-            },
-            {
-                platform: 'Spotify',
-                url: 'https://open.spotify.com/user/arfazrll',
-                icon: 'spotify',
-                username: 'Azrll',
+                username: 'Aryan170911',
             },
         ],
     },
@@ -247,8 +214,8 @@ export const portfolioData: PortfolioData = {
             techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Three.js', 'Framer Motion', 'GSAP'],
             tools: ['VS Code', 'Figma', 'GitHub'],
             status: 'completed',
-            demoUrl: 'https://syahrilarfianalmazril.vercel.app',
-            repoUrl: 'https://github.com/Arfazrll/PersonalBlog',
+            demoUrl: 'https://github.com/Aryan170911/PersonalBlog',
+            repoUrl: 'https://github.com/Aryan170911/PersonalBlog',
             startDate: '2025-01-20',
             highlights: ['3D animations', 'Scroll effects', 'Bilingual EN/ID'], // Keep for backward compatibility if needed, or rely on features
             category: 'Creative Tech',
@@ -290,7 +257,7 @@ export const portfolioData: PortfolioData = {
             installation: [
                 {
                     title: 'Clone the Repository',
-                    code: 'git clone https://github.com/Arfazrll/PersonalBlog.git\ncd PersonalBlog',
+                    code: 'git clone https://github.com/Aryan170911/PersonalBlog.git\ncd PersonalBlog',
                     type: 'code'
                 },
                 {
@@ -304,7 +271,7 @@ export const portfolioData: PortfolioData = {
                     code:
                         `Create a .env.local file in the root directory:
 
-NEXT_PUBLIC_GITHUB_USERNAME=Arfazrll
+NEXT_PUBLIC_GITHUB_USERNAME=Aryan170911
 WAKATIME_API_KEY=your_wakatime_key`
                 },
                 {

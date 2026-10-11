@@ -2,15 +2,8 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 export function proxy(request: NextRequest) {
-    const userAgent = request.headers.get('user-agent') || '';
-
-    // Check for mobile devices
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
-
-    if (isMobile) {
-        return NextResponse.redirect('https://arfazrllworkspace.vercel.app/');
-    }
-
+    void request;
+    // Your own fork serves all devices directly — no external redirect.
     return NextResponse.next();
 }
 

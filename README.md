@@ -2,9 +2,11 @@
 
 <img src="public/Arfazrll_light.svg" alt="Project Logo" width="80" height="80" />
 
-# Syahril Arfian Almazril — Technical Portfolio
+# Aryan Kumar — Personal Portfolio
 
-### Engineering AI Systems, Scalable Software, and Data Architectures
+### Personal portfolio & blog — Next.js, TypeScript, 3D & motion
+
+> Forked from [Aryan170911/PersonalBlog](https://github.com/Aryan170911/PersonalBlog) (MIT) and rebranded as my own.
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.1.6-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
@@ -13,15 +15,13 @@
 [![Three.js](https://img.shields.io/badge/Three.js-0.170-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
 [![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Portfolio-6366f1?style=for-the-badge)](https://syahrilarfianalmazril.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Arfazrll-181717?style=for-the-badge&logo=github)](https://github.com/Arfazrll)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/syahril-arfian-almazril)
+[![GitHub](https://img.shields.io/badge/GitHub-Aryan170911-181717?style=for-the-badge&logo=github)](https://github.com/Aryan170911)
 
 ---
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Arfazrll/PersonalBlog?style=flat-square&color=6366f1)
-![GitHub repo size](https://img.shields.io/github/repo-size/Arfazrll/PersonalBlog?style=flat-square&color=a855f7)
-![GitHub stars](https://img.shields.io/github/stars/Arfazrll/PersonalBlog?style=flat-square&color=f59e0b)
+![GitHub last commit](https://img.shields.io/github/last-commit/Aryan170911/PersonalBlog?style=flat-square&color=6366f1)
+![GitHub repo size](https://img.shields.io/github/repo-size/Aryan170911/PersonalBlog?style=flat-square&color=a855f7)
+![GitHub stars](https://img.shields.io/github/stars/Aryan170911/PersonalBlog?style=flat-square&color=f59e0b)
 ![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)
 
 </div>
@@ -115,7 +115,7 @@ The application implements a `usePerformance` hook to evaluate client hardware c
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Arfazrll/PersonalBlog.git
+   git clone https://github.com/Aryan170911/PersonalBlog.git
    cd PersonalBlog
    ```
 
@@ -168,5 +168,5 @@ The platform currently documents **19 technical projects** spanning multiple eng
 This project is licensed under the [MIT License](LICENSE).
 
 <div align="center">
-  <p>Engineered by Syahril Arfian Almazril</p>
+  <p>Maintained by Aryan Kumar · Forked from Arfazrll/PersonalBlog (MIT)</p>
 </div>

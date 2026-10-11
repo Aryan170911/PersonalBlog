@@ -32,25 +32,25 @@ const signature = Alex_Brush({
 
 export const metadata: Metadata = {
     title: {
-        default: 'Arfazrll | AI & Software Engineer',
+        default: 'Aryan Kumar | Portfolio',
         template: '%s | Portfolio',
     },
-    description: 'A passionate developer building digital experiences that inspire. Explore my projects, skills, and professional journey.',
-    keywords: ['developer', 'portfolio', 'web development', 'full stack', 'react', 'nextjs'],
-    authors: [{ name: 'Your Name' }],
-    creator: 'Your Name',
+    description: 'Aryan Kumar — software engineer building bots, tools and modern web experiences. Explore projects, skills and journey.',
+    keywords: ['developer', 'portfolio', 'web development', 'software engineer', 'react', 'nextjs'],
+    authors: [{ name: 'Aryan Kumar' }],
+    creator: 'Aryan Kumar',
     metadataBase: new URL('https://your-domain.com'),
     openGraph: {
         type: 'website',
         locale: 'en_US',
         url: 'https://your-domain.com',
-        title: 'Arfazrll | AI & Software Engineer',
+        title: 'Aryan Kumar | Portfolio',
         description: 'A passionate developer building digital experiences that inspire.',
         siteName: 'Portfolio',
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Arfazrll | AI & Software Engineer',
+        title: 'Aryan Kumar | Portfolio',
         description: 'A passionate developer building digital experiences that inspire.',
         creator: '@yourusername',
     },
